@@ -594,7 +594,7 @@ I bought [this prototyping board](https://www.ebay.co.uk/itm/265235487263)
 
 ![MAX3485](Pics/MAX3485.png)
 
-I bought [this MAX3845](https://www.ebay.co.uk/itm/403668533766)
+I bought [this MAX3485](https://www.ebay.co.uk/itm/403668533766)
 
 
 ![Wire](Pics/Wire.png)
