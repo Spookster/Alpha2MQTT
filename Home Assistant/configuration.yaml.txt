@@ -250,7 +250,27 @@ mqtt:
       unit_of_measurement: "W"
       state_topic: "HomeAssistant/MQTTSensor/REG_CUSTOM_TOTAL_SOLAR_POWER"
       value_template: "{{ value | int }}"
+      
+    - device_class: "power"
+      state_class: "measurement"
+      force_update: "true"
+      icon: "mdi:solar-power"
+      name: "Alpha Solar Power PPV1"
+      unique_id: "alpha_solar_power_ppv1"
+      unit_of_measurement: "W"
+      state_topic: "HomeAssistant/MQTTSensor/REG_INVERTER_HOME_R_PV1_POWER_1"
+      value_template: "{{ value | int }}"
 
+    - device_class: "power"
+      state_class: "measurement"
+      force_update: "true"
+      icon: "mdi:solar-power"
+      name: "Alpha Solar Power PPV2"
+      unique_id: "alpha_solar_power_ppv2"
+      unit_of_measurement: "W"
+      state_topic: "HomeAssistant/MQTTSensor/REG_INVERTER_HOME_R_PV2_POWER_1"
+      value_template: "{{ value | int }}"
+      
     - device_class: "current"
       state_class: "measurement"
       force_update: true
